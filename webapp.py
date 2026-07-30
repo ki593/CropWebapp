@@ -80,7 +80,7 @@ def set_bg_hack_url():
           f"""
           <style>
           .stApp {{
-              background: url("https://szmagro.hu/images/s3.jpg");
+              background: url("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41893-021-00768-6/MediaObjects/41893_2021_768_Fig1_HTML.jpg");
               background-size: cover
           }}
           </style>
