@@ -68,28 +68,6 @@ def view_all_users():
 def delete_user(Email):
     c.execute("DELETE FROM userstable WHERE Email="+"'"+Email+"'")
     conn.commit()
-"""
-def set_bg_hack_url():
-    '''
-    A function to unpack an image from url and set as bg.
-    Returns
-    -------
-    The background.
-    '''
-    """    
-    st.markdown(
-          f"""
-          <style>
-          .stApp {{
-              background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS22fzVJd5l2JyBKdLCGncMVj04Kynl64_E1-37WAnkvjmjlTYWhkbHnFE&s=10");
-              background-size: cover
-          }}
-          </style>
-          ,
-          unsafe_allow_html=True
-      )
-set_bg_hack_url()
-"""
 
 menu = ["Home","Login","SignUp"]
 choice = st.sidebar.selectbox("Menu",menu)
