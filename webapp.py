@@ -79,8 +79,8 @@ def set_bg_hack_url():
     st.markdown(
           f"""
           <style>
-          .stApp {{
-              background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Lavender_field_at_Hartley_Park_Farm_-_geograph.org.uk_-_1949000.jpg/250px-Lavender_field_at_Hartley_Park_Farm_-_geograph.org.uk_-_1949000.jpg");
+          .stApp {{https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS22fzVJd5l2JyBKdLCGncMVj04Kynl64_E1-37WAnkvjmjlTYWhkbHnFE&s=10
+              background: url("avender_field_at_Hartley_Park_Farm_-_geograph.org.uk_-_1949000.jpg");
               background-size: cover
           }}
           </style>
