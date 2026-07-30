@@ -116,7 +116,7 @@ if choice=="Login":
                     Ph=float(st.slider('ph Value', 3.5, 10.0))
                     Rain=float(st.slider('rainfall Value', 20.0, 299.0))
                     b2=st.button("Recommand")
-                    model=pickle.load("model.pkl", "rb")
+                    model=pickle.load(open("model.pkl", "rb"))
                     tdata=[N,P,K,temp,Hum,Ph,Rain]                        
                     if b2:
                         if choice2=="K-Nearest Neighbors":
