@@ -80,7 +80,7 @@ def set_bg_hack_url():
           f"""
           <style>
           .stApp {{
-              background: url("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41893-021-00768-6/MediaObjects/41893_2021_768_Fig1_HTML.jpg");
+              background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Lavender_field_at_Hartley_Park_Farm_-_geograph.org.uk_-_1949000.jpg/250px-Lavender_field_at_Hartley_Park_Farm_-_geograph.org.uk_-_1949000.jpg");
               background-size: cover
           }}
           </style>
