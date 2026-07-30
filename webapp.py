@@ -68,6 +68,7 @@ def view_all_users():
 def delete_user(Email):
     c.execute("DELETE FROM userstable WHERE Email="+"'"+Email+"'")
     conn.commit()
+"""
 def set_bg_hack_url():
     '''
     A function to unpack an image from url and set as bg.
@@ -84,7 +85,7 @@ def set_bg_hack_url():
               background-size: cover
           }}
           </style>
-          """,
+          ,
           unsafe_allow_html=True
       )
 set_bg_hack_url()
